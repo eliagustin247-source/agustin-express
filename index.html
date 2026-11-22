@@ -9,8 +9,10 @@ El formato del mensaje lo lee el cotizador (Pegar pedido): si se cambia aqui, ca
 Unica cosa guardada: nombre y telefono en el telefono del cliente (clave ae_cli) si marca la casilla.
 -->
 <html lang="es"><head><meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-e98CCv6hpS4CYEu4sxiPGUjveVwdMxoY++O9p81f3zk='; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Agustín Express · Pide tu servicio</title>
+<meta name="referrer" content="no-referrer">
 <meta name="description" content="Mensajería y diligencias en Santo Domingo. Pide tu servicio, mira tu precio al instante y envíalo por WhatsApp.">
 <meta property="og:title" content="Agustín Express · Pide tu servicio">
 <meta property="og:description" content="Mensajería y diligencias en Santo Domingo. Mira tu precio al instante y pide por WhatsApp.">
@@ -103,6 +105,15 @@ input:focus,button:focus-visible,a:focus-visible{outline:3px solid var(--or);out
 <div id="tsl"></div>
 <p class="hint" style="margin:14px 0 0">¿Dudas? <a id="ct" href="#" target="_blank" rel="noopener" style="color:var(--ink);font-weight:600">Escríbenos por WhatsApp</a><br>¿Ya usaste el servicio? <a id="cm" href="#" target="_blank" rel="noopener" style="color:var(--ink);font-weight:600">Deja tu comentario</a></p>
 </div>
+<details class="card" style="font-size:14px"><summary style="cursor:pointer;font-weight:600">🔒 Privacidad y seguridad</summary>
+<ul class="hint" style="padding-left:20px;margin:8px 0 0">
+<li>Pedimos solo lo necesario para el servicio: nombre y teléfono de quien recibe, recogida, destino y qué llevamos.</li>
+<li>Esta página no guarda tus datos en ningún servidor. El pedido va directo a nuestro WhatsApp, y solo lo ve Agustín Express.</li>
+<li>Si marcas «Guardar estos datos», se quedan solo en tu teléfono. Desmárcalo para borrarlos.</li>
+<li>Tu ubicación se usa solo si tocas «Usar mi ubicación actual», y únicamente para este pedido.</li>
+<li>La página abre con conexión segura (el candado 🔒) y está protegida para que nadie le meta código ajeno.</li>
+<li>No vendemos ni compartimos tus datos. Si quieres que borremos tu pedido de nuestro WhatsApp, escríbenos.</li>
+</ul></details>
 <p class="n">Usamos tus datos solo para atender este pedido. Si eliges guardarlos, se quedan únicamente en tu teléfono.<br>Agustín Express</p>
 </div>
 <script>
